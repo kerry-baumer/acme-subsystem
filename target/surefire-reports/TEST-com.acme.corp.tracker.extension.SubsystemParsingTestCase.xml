@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="5" failures="0" name="com.acme.corp.tracker.extension.SubsystemParsingTestCase" time="0.657" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_101/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/kbaumer/workspace/acme-subsystem"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="basedir" value="/home/kbaumer/workspace/acme-subsystem"/>
+    <property name="java.endorsed.dirs" value="/usr/java/jdk1.8.0_101/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="/home/kbaumer/workspace/acme-subsystem/target/surefire/surefirebooter7358603786041101941.jar"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="surefire.test.class.path" value="/home/kbaumer/workspace/acme-subsystem/target/test-classes:/home/kbaumer/workspace/acme-subsystem/target/classes:/home/kbaumer/.m2/repository/org/jboss/as/jboss-as-controller/7.1.0.Final/jboss-as-controller-7.1.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/jboss-dmr/1.1.1.Final/jboss-dmr-1.1.1.Final.jar:/home/kbaumer/.m2/repository/org/jboss/as/jboss-as-controller-client/7.1.0.Final/jboss-as-controller-client-7.1.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/as/jboss-as-protocol/7.1.0.Final/jboss-as-protocol-7.1.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/xnio/xnio-nio/3.0.3.GA/xnio-nio-3.0.3.GA.jar:/home/kbaumer/.m2/repository/org/jboss/modules/jboss-modules/1.1.1.GA/jboss-modules-1.1.1.GA.jar:/home/kbaumer/.m2/repository/org/jboss/msc/jboss-msc/1.0.2.GA/jboss-msc-1.0.2.GA.jar:/home/kbaumer/.m2/repository/org/jboss/staxmapper/1.1.0.Final/staxmapper-1.1.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/as/jboss-as-build-config/7.1.0.Final/jboss-as-build-config-7.1.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/as/jboss-as-server/7.1.0.Final/jboss-as-server-7.1.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/as/jboss-as-domain-http-interface/7.1.0.Final/jboss-as-domain-http-interface-7.1.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/as/jboss-as-domain-management/7.1.0.Final/jboss-as-domain-management-7.1.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/jboss-common-core/2.2.17.GA/jboss-common-core-2.2.17.GA.jar:/home/kbaumer/.m2/repository/org/jboss/com/sun/httpserver/httpserver/1.0.0.Final/httpserver-1.0.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/as/jboss-as-deployment-repository/7.1.0.Final/jboss-as-deployment-repository-7.1.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/as/jboss-as-embedded/7.1.0.Final/jboss-as-embedded-7.1.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/as/jboss-as-platform-mbean/7.1.0.Final/jboss-as-platform-mbean-7.1.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/as/jboss-as-process-controller/7.1.0.Final/jboss-as-process-controller-7.1.0.Final.jar:/usr/java/jdk1.8.0_101/jre/../lib/tools.jar:/home/kbaumer/.m2/repository/org/jboss/as/jboss-as-remoting/7.1.0.Final/jboss-as-remoting-7.1.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/as/jboss-as-network/7.1.0.Final/jboss-as-network-7.1.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/as/jboss-as-threads/7.1.0.Final/jboss-as-threads-7.1.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/xnio/xnio-api/3.0.3.GA/xnio-api-3.0.3.GA.jar:/home/kbaumer/.m2/repository/org/jboss/jandex/1.0.3.Final/jandex-1.0.3.Final.jar:/home/kbaumer/.m2/repository/org/jboss/invocation/jboss-invocation/1.1.1.Final/jboss-invocation-1.1.1.Final.jar:/home/kbaumer/.m2/repository/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.jar:/home/kbaumer/.m2/repository/org/jboss/logmanager/jboss-logmanager/1.2.2.GA/jboss-logmanager-1.2.2.GA.jar:/home/kbaumer/.m2/repository/org/jboss/logmanager/jboss-logmanager-log4j/1.0.0.GA/jboss-logmanager-log4j-1.0.0.GA.jar:/home/kbaumer/.m2/repository/org/jboss/marshalling/jboss-marshalling/1.3.9.GA/jboss-marshalling-1.3.9.GA.jar:/home/kbaumer/.m2/repository/org/jboss/remoting3/jboss-remoting/3.2.2.GA/jboss-remoting-3.2.2.GA.jar:/home/kbaumer/.m2/repository/org/jboss/sasl/jboss-sasl/1.0.0.Final/jboss-sasl-1.0.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/stdio/jboss-stdio/1.0.1.GA/jboss-stdio-1.0.1.GA.jar:/home/kbaumer/.m2/repository/org/jboss/threads/jboss-threads/2.0.0.GA/jboss-threads-2.0.0.GA.jar:/home/kbaumer/.m2/repository/org/jboss/jboss-vfs/3.1.0.Final/jboss-vfs-3.1.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/as/jboss-as-subsystem-test/7.1.0.Final/jboss-as-subsystem-test-7.1.0.Final.jar:/home/kbaumer/.m2/repository/junit/junit/4.8.2/junit-4.8.2.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="2.6.32-642.3.1.el6.x86_64"/>
+    <property name="user.home" value="/home/kbaumer"/>
+    <property name="user.timezone" value="US/Eastern"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="kbaumer"/>
+    <property name="java.class.path" value="/home/kbaumer/workspace/acme-subsystem/target/test-classes:/home/kbaumer/workspace/acme-subsystem/target/classes:/home/kbaumer/.m2/repository/org/jboss/as/jboss-as-controller/7.1.0.Final/jboss-as-controller-7.1.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/jboss-dmr/1.1.1.Final/jboss-dmr-1.1.1.Final.jar:/home/kbaumer/.m2/repository/org/jboss/as/jboss-as-controller-client/7.1.0.Final/jboss-as-controller-client-7.1.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/as/jboss-as-protocol/7.1.0.Final/jboss-as-protocol-7.1.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/xnio/xnio-nio/3.0.3.GA/xnio-nio-3.0.3.GA.jar:/home/kbaumer/.m2/repository/org/jboss/modules/jboss-modules/1.1.1.GA/jboss-modules-1.1.1.GA.jar:/home/kbaumer/.m2/repository/org/jboss/msc/jboss-msc/1.0.2.GA/jboss-msc-1.0.2.GA.jar:/home/kbaumer/.m2/repository/org/jboss/staxmapper/1.1.0.Final/staxmapper-1.1.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/as/jboss-as-build-config/7.1.0.Final/jboss-as-build-config-7.1.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/as/jboss-as-server/7.1.0.Final/jboss-as-server-7.1.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/as/jboss-as-domain-http-interface/7.1.0.Final/jboss-as-domain-http-interface-7.1.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/as/jboss-as-domain-management/7.1.0.Final/jboss-as-domain-management-7.1.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/jboss-common-core/2.2.17.GA/jboss-common-core-2.2.17.GA.jar:/home/kbaumer/.m2/repository/org/jboss/com/sun/httpserver/httpserver/1.0.0.Final/httpserver-1.0.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/as/jboss-as-deployment-repository/7.1.0.Final/jboss-as-deployment-repository-7.1.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/as/jboss-as-embedded/7.1.0.Final/jboss-as-embedded-7.1.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/as/jboss-as-platform-mbean/7.1.0.Final/jboss-as-platform-mbean-7.1.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/as/jboss-as-process-controller/7.1.0.Final/jboss-as-process-controller-7.1.0.Final.jar:/usr/java/jdk1.8.0_101/jre/../lib/tools.jar:/home/kbaumer/.m2/repository/org/jboss/as/jboss-as-remoting/7.1.0.Final/jboss-as-remoting-7.1.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/as/jboss-as-network/7.1.0.Final/jboss-as-network-7.1.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/as/jboss-as-threads/7.1.0.Final/jboss-as-threads-7.1.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/xnio/xnio-api/3.0.3.GA/xnio-api-3.0.3.GA.jar:/home/kbaumer/.m2/repository/org/jboss/jandex/1.0.3.Final/jandex-1.0.3.Final.jar:/home/kbaumer/.m2/repository/org/jboss/invocation/jboss-invocation/1.1.1.Final/jboss-invocation-1.1.1.Final.jar:/home/kbaumer/.m2/repository/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.jar:/home/kbaumer/.m2/repository/org/jboss/logmanager/jboss-logmanager/1.2.2.GA/jboss-logmanager-1.2.2.GA.jar:/home/kbaumer/.m2/repository/org/jboss/logmanager/jboss-logmanager-log4j/1.0.0.GA/jboss-logmanager-log4j-1.0.0.GA.jar:/home/kbaumer/.m2/repository/org/jboss/marshalling/jboss-marshalling/1.3.9.GA/jboss-marshalling-1.3.9.GA.jar:/home/kbaumer/.m2/repository/org/jboss/remoting3/jboss-remoting/3.2.2.GA/jboss-remoting-3.2.2.GA.jar:/home/kbaumer/.m2/repository/org/jboss/sasl/jboss-sasl/1.0.0.Final/jboss-sasl-1.0.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/stdio/jboss-stdio/1.0.1.GA/jboss-stdio-1.0.1.GA.jar:/home/kbaumer/.m2/repository/org/jboss/threads/jboss-threads/2.0.0.GA/jboss-threads-2.0.0.GA.jar:/home/kbaumer/.m2/repository/org/jboss/jboss-vfs/3.1.0.Final/jboss-vfs-3.1.0.Final.jar:/home/kbaumer/.m2/repository/org/jboss/as/jboss-as-subsystem-test/7.1.0.Final/jboss-as-subsystem-test-7.1.0.Final.jar:/home/kbaumer/.m2/repository/junit/junit/4.8.2/junit-4.8.2.jar:"/>
+    <property name="jboss.home" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/java/jdk1.8.0_101/jre"/>
+    <property name="sun.java.command" value="/home/kbaumer/workspace/acme-subsystem/target/surefire/surefirebooter7358603786041101941.jar /home/kbaumer/workspace/acme-subsystem/target/surefire/surefire4333636772961902372tmp /home/kbaumer/workspace/acme-subsystem/target/surefire/surefire2532318680148619255tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="java.ext.dirs" value="/usr/java/jdk1.8.0_101/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.boot.class.path" value="/usr/java/jdk1.8.0_101/jre/lib/resources.jar:/usr/java/jdk1.8.0_101/jre/lib/rt.jar:/usr/java/jdk1.8.0_101/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_101/jre/lib/jsse.jar:/usr/java/jdk1.8.0_101/jre/lib/jce.jar:/usr/java/jdk1.8.0_101/jre/lib/charsets.jar:/usr/java/jdk1.8.0_101/jre/lib/jfr.jar:/usr/java/jdk1.8.0_101/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="/home/kbaumer/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="com.acme.corp.tracker.extension.SubsystemParsingTestCase" name="testParseSubsystem" time="0.07"/>
+  <testcase classname="com.acme.corp.tracker.extension.SubsystemParsingTestCase" name="testInstallIntoController" time="0.391"/>
+  <testcase classname="com.acme.corp.tracker.extension.SubsystemParsingTestCase" name="testParseAndMarshalModel" time="0.039"/>
+  <testcase classname="com.acme.corp.tracker.extension.SubsystemParsingTestCase" name="testDescribeHandler" time="0.05"/>
+  <testcase classname="com.acme.corp.tracker.extension.SubsystemParsingTestCase" name="testSubsystemRemoval" time="0.03"/>
+</testsuite>

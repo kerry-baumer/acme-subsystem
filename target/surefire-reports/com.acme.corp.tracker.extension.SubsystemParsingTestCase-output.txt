@@ -1,0 +1,14 @@
+Aug 15, 2016 5:39:46 PM org.jboss.msc.service.ServiceLogger_$logger greeting
+INFO: JBoss MSC version 1.0.2.GA
+Aug 15, 2016 5:39:46 PM com.acme.corp.tracker.extension.SubsystemAdd populateModel
+INFO: Populating the model
+Aug 15, 2016 5:39:46 PM com.acme.corp.tracker.extension.SubsystemAdd populateModel
+INFO: Populating the model
+Aug 15, 2016 5:39:46 PM com.acme.corp.tracker.extension.SubsystemAdd populateModel
+INFO: Populating the model
+Aug 15, 2016 5:39:46 PM com.acme.corp.tracker.extension.SubsystemAdd populateModel
+INFO: Populating the model
+Aug 15, 2016 5:39:46 PM com.acme.corp.tracker.extension.SubsystemAdd populateModel
+INFO: Populating the model
+Aug 15, 2016 5:39:47 PM com.acme.corp.tracker.extension.SubsystemAdd populateModel
+INFO: Populating the model

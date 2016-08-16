@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <tempfile property="temp.file"/>
+  <echo file="${temp.file}" message="com.acme.corp.tracker"/>
+  <replace file="${temp.file}" value="/" token="."/>
+  <loadfile srcfile="${temp.file}" property="module.path"/>
+  <delete file="${temp.file}"/>
+  <delete dir="target/module"/>
+  <property name="module.dir" value="target/module/${module.path}/main"/>
+  <copy file="src/main/resources/module/main/module.xml" tofile="${module.dir}/module.xml"/>
+  <copy file="target/acme-subsystem.jar" todir="${module.dir}"/>
+  <echo>Module com.acme.corp.tracker has been created in the target/module directory. Copy to your JBoss AS 7 installation.</echo>
+</target>
+</project>
